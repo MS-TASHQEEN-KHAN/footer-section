@@ -1,0 +1,117 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+html, body{width: 100%;
+height: 100%;}
+
+body>img{width: 100%;
+filter: brightness(60%);
+position: relative;}
+
+body>h1{position: absolute;
+left: 35%;
+top: 15%;
+font-size: 100px;
+color: white;}
+
+.main{width: 100%;
+background-color: rgb(1, 1, 44);
+color: white;
+padding: 2% 5%;}
+
+.main .upper{display: flex;
+justify-content: space-between;}
+
+.main .upper .first{width: 15%;
+padding: 5px;
+margin: 10px;}
+
+.main .upper .first>h1{font-size: 40px;
+margin-bottom: 15px;}
+
+.main .upper .first>p{font-size: 25px;
+margin-bottom: 10px;
+color: rgb(197, 194, 194);}
+
+.main .upper .second{width: 15%;
+padding: 5px;
+margin: 10px;}
+
+.main .upper .second>h1{font-size: 40px;
+margin-bottom: 15px;}
+    
+.main .upper .second>p{font-size: 25px;
+margin-bottom: 10px;
+color: rgb(197, 194, 194);}
+
+.main .upper .third{width: 15%;
+padding: 5px;
+margin: 10px;}
+
+.main .upper .third>h1{font-size: 40px;
+margin-bottom: 15px;}
+    
+.main .upper .third>p{font-size: 25px;
+margin-bottom: 10px;
+color: rgb(197, 194, 194);}
+
+.main .upper .fourth{width: 45%;
+padding: 5px;
+margin: 10px;}
+
+.main .upper .fourth>h1{font-size: 40px;
+margin-bottom: 15px;}
+
+.main .upper .fourth>input{width: 72%;
+border: 3px solid rgb(40, 170, 221);
+padding: 10px;
+font-size: 20px;
+margin-bottom: 20px;
+margin-right: 10px;}
+
+.main .upper .fourth>button{padding: 9px 25px;
+font-size: 25px;
+color: white;
+background-color: orangered;}
+    
+.main .upper .fourth>p{font-size: 25px;
+margin-bottom: 10px;
+color: rgb(226, 224, 224);}
+
+.main .upper .fourth>img{width: 50px;
+margin-right: 20px;}
+
+.main>hr{margin: 40px;}
+
+.main .lower{width: 90%;
+margin-left: 7%;
+display: flex;
+justify-content: space-between;}
+
+.main .lower .first{width: 40%;
+display: flex;}
+
+.main .lower .first>img{width: 100px;
+height: 100px;
+margin-right: 10px;}
+
+.main .lower .first>h1{color: orange;
+display: inline;
+font-size: 50px;}
+
+.main .lower .first>p{display: inline-block;}
+
+.main .lower .second{width: 35%;}
+
+.main .lower .second>p{font-size: 25px;}
+
+.main .lower .third{width: 10%;}
+
+.main .lower .third>img{width: 100px;
+margin-bottom: 20px;}
+
+.main>p{font-size: 30px;
+position: absolute;
+top: 88%;
+left: 18%;}
